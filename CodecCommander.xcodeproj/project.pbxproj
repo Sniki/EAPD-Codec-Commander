@@ -16,11 +16,7 @@
 		D4FA53E11A07C8E1000DD257 /* Configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FA53E01A07C8E1000DD257 /* Configuration.cpp */; };
 		D4FB21F71A0CEBE1005D6019 /* IntelHDA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FB21F61A0CEBE1005D6019 /* IntelHDA.cpp */; };
 		D4FD9E041A039E550095AA5A /* IntelHDA.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FD9E031A039E550095AA5A /* IntelHDA.h */; };
-		ED02CA5A1F96348C00AECA76 /* SSDT-ALC1220.dsl in Resources */ = {isa = PBXBuildFile; fileRef = ED02CA591F96348C00AECA76 /* SSDT-ALC1220.dsl */; };
-		ED5F25252159F7DE003DE698 /* SSDT-ALC256-insanelydeepak.dsl in Resources */ = {isa = PBXBuildFile; fileRef = ED5F25232159F7DD003DE698 /* SSDT-ALC256-insanelydeepak.dsl */; };
-		ED5F25262159F7DE003DE698 /* SSDT-ALC256-vbourachot.dsl in Resources */ = {isa = PBXBuildFile; fileRef = ED5F25242159F7DD003DE698 /* SSDT-ALC256-vbourachot.dsl */; };
-		EDC110B41F7408B900A30149 /* SSDT-CX20752.dsl in Resources */ = {isa = PBXBuildFile; fileRef = EDC110B21F7408B900A30149 /* SSDT-CX20752.dsl */; };
-		EDC110B51F7408B900A30149 /* SSDT-AppleALC.dsl in Resources */ = {isa = PBXBuildFile; fileRef = EDC110B31F7408B900A30149 /* SSDT-AppleALC.dsl */; };
+		DFBDD924239EE4A300C268FF /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = DFBDD923239EE4A300C268FF /* Samples */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,7 +40,6 @@
 		8499218E1600F4FC00CCDF3B /* CodecCommander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = CodecCommander.cpp; sourceTree = "<group>"; usesTabs = 1; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		8499218F1600F4FC00CCDF3B /* CodecCommander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CodecCommander.h; sourceTree = "<group>"; usesTabs = 1; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		849F78D71ACFC03600389EDA /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; usesTabs = 1; };
-		84E686211C02AE6900638613 /* SSDT-ALC283.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-ALC283.dsl"; sourceTree = "<group>"; };
 		D404F1D51A124D5E008E6BFD /* Client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
 		D40F6EDC1A73EBFD0064E146 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		D42D3C051A59558B006C4C8C /* CodecCommanderClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodecCommanderClient; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,12 +52,7 @@
 		D4FB21F61A0CEBE1005D6019 /* IntelHDA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntelHDA.cpp; sourceTree = "<group>"; };
 		D4FB21F81A0CED3E005D6019 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		D4FD9E031A039E550095AA5A /* IntelHDA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IntelHDA.h; sourceTree = "<group>"; usesTabs = 1; };
-		ED02CA591F96348C00AECA76 /* SSDT-ALC1220.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-ALC1220.dsl"; sourceTree = "<group>"; };
-		ED10E3A81E44D97D00EB1C3C /* SSDT-ALC298a.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-ALC298a.dsl"; sourceTree = "<group>"; };
-		ED10E3A91E44D97D00EB1C3C /* SSDT-ALC298.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-ALC298.dsl"; sourceTree = "<group>"; };
-		ED1EDDF21CC7E2700004F8F0 /* SSDT-ALC280.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-ALC280.dsl"; sourceTree = "<group>"; };
-		ED5F25232159F7DD003DE698 /* SSDT-ALC256-insanelydeepak.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-ALC256-insanelydeepak.dsl"; sourceTree = "<group>"; };
-		ED5F25242159F7DD003DE698 /* SSDT-ALC256-vbourachot.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-ALC256-vbourachot.dsl"; sourceTree = "<group>"; };
+		DFBDD923239EE4A300C268FF /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
 		ED789AED1CFA1A840067F666 /* gen_ahhcd.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = gen_ahhcd.sh; sourceTree = "<group>"; };
 		ED789AEE1CFA1A840067F666 /* extract_hda.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = extract_hda.sh; sourceTree = "<group>"; };
 		ED789AEF1CFA1A840067F666 /* convert.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = convert.sh; sourceTree = "<group>"; };
@@ -70,9 +60,6 @@
 		ED789AF11CFA1A840067F666 /* eapd_dump.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = eapd_dump.sh; sourceTree = "<group>"; };
 		ED789AF21CFA1A840067F666 /* node_dump.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = node_dump.sh; sourceTree = "<group>"; };
 		ED789AF31CFA1A840067F666 /* widget_dump.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = widget_dump.sh; sourceTree = "<group>"; };
-		EDA1E4181C8DC4AD009C880D /* SSDT-ALC668.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-ALC668.dsl"; sourceTree = "<group>"; };
-		EDC110B21F7408B900A30149 /* SSDT-CX20752.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-CX20752.dsl"; sourceTree = "<group>"; };
-		EDC110B31F7408B900A30149 /* SSDT-AppleALC.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-AppleALC.dsl"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,18 +85,9 @@
 		0C4B237114598AD10080D960 = {
 			isa = PBXGroup;
 			children = (
+				DFBDD923239EE4A300C268FF /* Samples */,
 				849F78D71ACFC03600389EDA /* makefile */,
 				D42D3C0F1A595B8D006C4C8C /* README.md */,
-				EDC110B31F7408B900A30149 /* SSDT-AppleALC.dsl */,
-				ED5F25232159F7DD003DE698 /* SSDT-ALC256-insanelydeepak.dsl */,
-				ED5F25242159F7DD003DE698 /* SSDT-ALC256-vbourachot.dsl */,
-				ED1EDDF21CC7E2700004F8F0 /* SSDT-ALC280.dsl */,
-				84E686211C02AE6900638613 /* SSDT-ALC283.dsl */,
-				ED10E3A91E44D97D00EB1C3C /* SSDT-ALC298.dsl */,
-				ED10E3A81E44D97D00EB1C3C /* SSDT-ALC298a.dsl */,
-				EDA1E4181C8DC4AD009C880D /* SSDT-ALC668.dsl */,
-				EDC110B21F7408B900A30149 /* SSDT-CX20752.dsl */,
-				ED02CA591F96348C00AECA76 /* SSDT-ALC1220.dsl */,
 				0C4B238314598AD20080D960 /* CodecCommander */,
 				D42D3C061A59558C006C4C8C /* CodecCommanderClient */,
 				ED789AEC1CFA1A690067F666 /* HDA tools */,
@@ -256,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0C4B237114598AD10080D960;
@@ -274,11 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC110B41F7408B900A30149 /* SSDT-CX20752.dsl in Resources */,
-				ED5F25262159F7DE003DE698 /* SSDT-ALC256-vbourachot.dsl in Resources */,
-				ED5F25252159F7DE003DE698 /* SSDT-ALC256-insanelydeepak.dsl in Resources */,
-				ED02CA5A1F96348C00AECA76 /* SSDT-ALC1220.dsl in Resources */,
-				EDC110B51F7408B900A30149 /* SSDT-AppleALC.dsl in Resources */,
+				DFBDD924239EE4A300C268FF /* Samples in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
