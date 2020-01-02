@@ -114,7 +114,7 @@ void IntelHDA::resetHDA()
 
 IntelHDA::~IntelHDA()
 {
-    OSSafeRelease(mMemoryMap);
+    OSSafeReleaseNULL(mMemoryMap);
 }
 
 bool IntelHDA::initialize(bool regMapOnly)

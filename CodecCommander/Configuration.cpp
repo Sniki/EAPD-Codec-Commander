@@ -242,7 +242,7 @@ OSObject* Configuration::translateArray(OSArray* array)
             if (trans)
                 obj = trans;
             dict->setObject(key, obj);
-            OSSafeRelease(trans);
+            OSSafeReleaseNULL(trans);
         }
         result = dict;
     }
@@ -282,13 +282,13 @@ OSDictionary* Configuration::getConfigurationOverride(const char* method, IOServ
 #endif
         if (array)
             obj = translateArray(array);
-        OSSafeRelease(r);
+        OSSafeReleaseNULL(r);
 
         // must be dictionary after translation, even though array is possible
         dict = OSDynamicCast(OSDictionary, obj);
         if (!dict)
         {
-            OSSafeRelease(obj);
+            OSSafeReleaseNULL(obj);
             return NULL;
         }
         provider->setProperty(kRMCFCache, dict);
@@ -358,7 +358,7 @@ Configuration::Configuration(OSObject* codecProfiles, IntelHDA* intelHDA, const 
     // Retrieve platform profile configuration
     OSDictionary* config = loadConfiguration(profiles, codecVendorId, hdaSubsystemId);
     if (profiles != codecProfiles)
-        OSSafeRelease(profiles);
+        OSSafeReleaseNULL(profiles);
 
     // old way custom configuration (merge into device specific)
     if (custom)
@@ -377,7 +377,7 @@ Configuration::Configuration(OSObject* codecProfiles, IntelHDA* intelHDA, const 
     mDisable = getBoolValue(config, kDisable, false);
     if (mDisable)
     {
-        OSSafeRelease(config);
+        OSSafeReleaseNULL(config);
         return;
     }
 
@@ -420,7 +420,7 @@ Configuration::Configuration(OSObject* codecProfiles, IntelHDA* intelHDA, const 
     mCustomCommands = OSArray::withCapacity(0);
     if (!mCustomCommands)
     {
-        OSSafeRelease(config);
+        OSSafeReleaseNULL(config);
         return;
     }
 
@@ -475,7 +475,7 @@ Configuration::Configuration(OSObject* codecProfiles, IntelHDA* intelHDA, const 
         }
     }
 
-    OSSafeRelease(config);
+    OSSafeReleaseNULL(config);
 
     // Dump parsed configuration
     DebugLog("Configuration\n");
@@ -517,9 +517,9 @@ Configuration::Configuration(OSObject* codecProfiles, IntelHDA* intelHDA, const 
 Configuration::~Configuration()
 {
 #ifdef DEBUG
-    OSSafeRelease(mMergedConfig);
+    OSSafeReleaseNULL(mMergedConfig);
 #endif
-    OSSafeRelease(mPinConfigDefault);
-    OSSafeRelease(mCustomCommands);
+    OSSafeReleaseNULL(mPinConfigDefault);
+    OSSafeReleaseNULL(mCustomCommands);
 }
 
