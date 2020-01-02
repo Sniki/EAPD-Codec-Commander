@@ -380,9 +380,11 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
+				CURRENT_PROJECT_VERSION = 2.7.2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodecCommander/CodecCommander-Prefix.pch";
 				INFOPLIST_FILE = "CodecCommander/CodecCommander-Info.plist";
+				MARKETING_VERSION = 2.7.2;
 				MODULE_NAME = org.tw.CodecCommander;
 				MODULE_START = CodecCommander_Start;
 				MODULE_STOP = CodecCommander_Stop;
@@ -397,9 +399,11 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
+				CURRENT_PROJECT_VERSION = 2.7.2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodecCommander/CodecCommander-Prefix.pch";
 				INFOPLIST_FILE = "CodecCommander/CodecCommander-Info.plist";
+				MARKETING_VERSION = 2.7.2;
 				MODULE_NAME = org.tw.CodecCommander;
 				MODULE_START = CodecCommander_Start;
 				MODULE_STOP = CodecCommander_Stop;
