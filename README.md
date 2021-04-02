@@ -1,4 +1,4 @@
-## Codec Commander
+Codec Commander
 ====
 
 [![Build Status](https://github.com/Sniki/EAPD-Codec-Commander/workflows/CI/badge.svg?branch=master)](https://github.com/Sniki/EAPD-Codec-Commander/actions)
