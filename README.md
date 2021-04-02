@@ -1,4 +1,7 @@
 ## Codec Commander
+====
+
+[![Build Status](https://github.com/Sniki/EAPD-Codec-Commander/workflows/CI/badge.svg?branch=master)](https://github.com/Sniki/EAPD-Codec-Commander/actions)
 
 ### What is the purpose of this?
 Used for updating EAPD (External Amplifier) state on HDA (High Definition Audio) codecs that use given amp on Speaker or Headphone nodes (both, or even extra ones in some cases). In OS X EAPD gets powered down across sleep so audio remains non functional after waking the machine up.
