@@ -26,19 +26,19 @@ jobs:
         run: |
           src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/ocbuild/master/ci-bootstrap.sh) && eval "$src" || exit 1
 
-      - run: xcodebuild -scheme CodecCommander -configuration Debug
-      - run: xcodebuild -scheme CodecCommander -configuration Release
+      - run: xcodebuild -scheme CodecCommander -derivedDataPath . -configuration Debug
+      - run: xcodebuild -scheme CodecCommander -derivedDataPath . -configuration Release
 
       - name: Upload to Artifacts
         uses: actions/upload-artifact@v2
         with:
           name: Artifacts
-          path: build/*/*.zip
+          path: Build/Products/*/*.zip
       - name: Upload to Release
         if: github.event_name == 'release'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/*/*.zip
+          file: Build/Products/*/*.zip
           tag: ${{ github.ref }}
           file_glob: true

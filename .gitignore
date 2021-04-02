@@ -4,9 +4,12 @@ DerivedData
 Distribute
 Index
 Logs
+ModuleCache*
 TextIndex
+XCBuildData
 xcuserdata
 xcshareddata
 project.xcworkspace
+info.plist
 scm.plist
 /MacKernelSDK
