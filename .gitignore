@@ -1,12 +1,12 @@
+.DS_Store
 Build
 DerivedData
 Distribute
 Index
 Logs
 TextIndex
-CodecCommander.xcodeproj/project.xcworkspace/xcuserdata
-CodecCommander.xcodeproj/xcuserdata
-info.plist
+xcuserdata
+xcshareddata
+project.xcworkspace
 scm.plist
-*.xccheckout
-.DS_Store
+/MacKernelSDK
