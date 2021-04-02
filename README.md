@@ -154,6 +154,8 @@ By default HDMI codecs re disabled in order to prevent CC attaching on them. If 
 
 ### Credits
 
+- [Steve Zheng] (https://github.com/stevezhengshiqi) for adding MacKernelSDK and Github Actions
+
 - EAPD fix (resumable-mutable-sound-v1 for IOAudioFamily): km9
 
 - Revamp of the project: RehabMan, the-darkvoid
