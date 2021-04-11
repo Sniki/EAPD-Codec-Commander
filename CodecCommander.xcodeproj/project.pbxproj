@@ -358,7 +358,7 @@
 				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MODULE_VERSION = 2.7.2;
+				MODULE_VERSION = 2.7.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
@@ -403,7 +403,7 @@
 				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MODULE_VERSION = 2.7.2;
+				MODULE_VERSION = 2.7.3;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
 			};
@@ -414,7 +414,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 2.7.2;
+				CURRENT_PROJECT_VERSION = 2.7.3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodecCommander/CodecCommander-Prefix.pch";
 				INFOPLIST_FILE = "CodecCommander/CodecCommander-Info.plist";
@@ -422,7 +422,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
-				MARKETING_VERSION = 2.7.2;
+				MARKETING_VERSION = 2.7.3;
 				MODULE_NAME = org.tw.CodecCommander;
 				MODULE_START = CodecCommander_Start;
 				MODULE_STOP = CodecCommander_Stop;
@@ -437,7 +437,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 2.7.2;
+				CURRENT_PROJECT_VERSION = 2.7.3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodecCommander/CodecCommander-Prefix.pch";
 				INFOPLIST_FILE = "CodecCommander/CodecCommander-Info.plist";
@@ -445,7 +445,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
-				MARKETING_VERSION = 2.7.2;
+				MARKETING_VERSION = 2.7.3;
 				MODULE_NAME = org.tw.CodecCommander;
 				MODULE_START = CodecCommander_Start;
 				MODULE_STOP = CodecCommander_Stop;
